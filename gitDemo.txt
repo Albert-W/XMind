@@ -1,0 +1,10 @@
+1
+3
+5
+reset <f>
+checkout
+restore
+checkout cid
+reset HEAD^
+
+git pull
