@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="pp7qRMlXSmQ43XQcmBnF">
+    <mxGraphModel dx="1223" dy="1464" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="muytFzZs_gshP87OeGo0-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="iTerm2 / GUI&lt;div&gt;Terminal Simulator&lt;/div&gt;" vertex="1">
+          <mxGeometry height="161" width="355.25" x="248.88" y="-180" as="geometry" />
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-39" edge="1" parent="1" source="muytFzZs_gshP87OeGo0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="muytFzZs_gshP87OeGo0-12" value="File Discriptor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="Tmux Server" vertex="1">
+          <mxGeometry height="200" width="303" x="276" y="39" as="geometry" />
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-1" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="117" y="313" as="sourcePoint" />
+            <mxPoint x="900" y="313" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="User Space" vertex="1">
+          <mxGeometry height="30" width="152" x="110" y="266" as="geometry" />
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Kernel Space" vertex="1">
+          <mxGeometry height="30" width="152" x="115" y="342" as="geometry" />
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-16" edge="1" parent="1" source="muytFzZs_gshP87OeGo0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="muytFzZs_gshP87OeGo0-7" value="IPC / Socket">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="Tmux Client" vertex="1">
+          <mxGeometry height="59" width="298" x="278.5" y="-110" as="geometry" />
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Tmux Session" vertex="1">
+          <mxGeometry height="111" width="246" x="307" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Windows" vertex="1">
+          <mxGeometry height="68" width="210" x="325" y="111" as="geometry" />
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-37" edge="1" parent="1" source="muytFzZs_gshP87OeGo0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;dashed=1;" target="muytFzZs_gshP87OeGo0-19" value="Visual Link">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Pane" vertex="1">
+          <mxGeometry height="30" width="122.5" x="366.5" y="137" as="geometry" />
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-34" edge="1" parent="1" source="muytFzZs_gshP87OeGo0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="muytFzZs_gshP87OeGo0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="PTY Master&lt;div&gt;&amp;nbsp;/dev/ptmx&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="367.75" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-20" edge="1" parent="1" source="muytFzZs_gshP87OeGo0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;verticalAlign=top;" target="muytFzZs_gshP87OeGo0-19" value="File Discriptor (fd 0, 1, 2)">
+          <mxGeometry relative="1" x="0.93" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" value="PTY Slave&amp;nbsp; / Terminal&lt;div&gt;/ TTY&lt;br&gt;/dev/pts/0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="141" width="382" x="316" y="444" as="geometry" />
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Shell&lt;div&gt;controlling terminal is /dev/tty&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="748" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-26" edge="1" parent="1" source="muytFzZs_gshP87OeGo0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="muytFzZs_gshP87OeGo0-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-38" edge="1" parent="1" source="muytFzZs_gshP87OeGo0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="muytFzZs_gshP87OeGo0-12" value="Echo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value=" Line discipline&lt;br&gt;N_TTY" vertex="1">
+          <mxGeometry height="60" width="120" x="348" y="477" as="geometry" />
+        </mxCell>
+        <mxCell id="muytFzZs_gshP87OeGo0-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="termios (Control plane)" vertex="1">
+          <mxGeometry height="60" width="120" x="557" y="477" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
