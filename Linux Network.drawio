@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="UEnwk-4tzuU7VPjIaErP">
+    <mxGraphModel dx="886" dy="1064" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vLtt6pe22PPS31rbpG9--1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="curl https://www.google.com" vertex="1">
+          <mxGeometry height="28" width="197" x="199" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--5" edge="1" parent="1" source="vLtt6pe22PPS31rbpG9--25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="vLtt6pe22PPS31rbpG9--4" value="read NS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--26" edge="1" parent="1" source="vLtt6pe22PPS31rbpG9--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vLtt6pe22PPS31rbpG9--25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Static IP Map&lt;div&gt;/etc/hosts&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="237.5" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="DNS Resolver&lt;br&gt;/etc/resolv.conf" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="444" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--20" edge="1" parent="1" source="vLtt6pe22PPS31rbpG9--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vLtt6pe22PPS31rbpG9--19" value="if miss">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--12" edge="1" parent="1" source="vLtt6pe22PPS31rbpG9--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vLtt6pe22PPS31rbpG9--11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="TCP&lt;br&gt;socket()&lt;div&gt;connect()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="237.5" y="696" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--13" edge="1" parent="1" source="vLtt6pe22PPS31rbpG9--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="vLtt6pe22PPS31rbpG9--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="IP of Server" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="696" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--17" edge="1" parent="1" source="vLtt6pe22PPS31rbpG9--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vLtt6pe22PPS31rbpG9--16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="getaddrinfo()&lt;div&gt;（for All in Address Family)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="237.5" y="107" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--18" edge="1" parent="1" source="vLtt6pe22PPS31rbpG9--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vLtt6pe22PPS31rbpG9--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;div&gt;Name Service Switch&lt;/div&gt;&lt;div&gt;（config)&lt;/div&gt;/etc/nsswitch.conf" vertex="1">
+          <mxGeometry height="60" width="120" x="237.5" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--30" edge="1" parent="1" source="vLtt6pe22PPS31rbpG9--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="vLtt6pe22PPS31rbpG9--6" value="ip">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Upstream DNS NS" vertex="1">
+          <mxGeometry height="60" width="120" x="507" y="567" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="hosts: files dns" vertex="1">
+          <mxGeometry height="28" width="117" x="371" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="files" vertex="1">
+          <mxGeometry height="30" width="60" x="371" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="dns" vertex="1">
+          <mxGeometry height="30" width="60" x="371" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--27" edge="1" parent="1" source="vLtt6pe22PPS31rbpG9--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vLtt6pe22PPS31rbpG9--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="NSS DNS Plugin&lt;div&gt;libnss_dns.so&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="237.5" y="444" as="geometry" />
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--29" edge="1" parent="1" source="vLtt6pe22PPS31rbpG9--25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="vLtt6pe22PPS31rbpG9--6" value="Send DNS query">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="298" y="504" as="sourcePoint" />
+            <mxPoint x="291" y="696" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLtt6pe22PPS31rbpG9--6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;div&gt;Local cache&lt;/div&gt;systemd-resolved" vertex="1">
+          <mxGeometry height="60" width="120" x="237.5" y="567" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
