@@ -7,9 +7,6 @@
         <mxCell id="6SOreZp7TohdNblQTOo6-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="302" width="692" x="42" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="6SOreZp7TohdNblQTOo6-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;strokeWidth=3;" value="Block Group 0" vertex="1">
-          <mxGeometry height="279" width="240" x="42" y="240" as="geometry" />
-        </mxCell>
         <mxCell id="6SOreZp7TohdNblQTOo6-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;strokeWidth=3;" value="Block Group * N" vertex="1">
           <mxGeometry height="279" width="240" x="282" y="240" as="geometry" />
         </mxCell>
@@ -36,6 +33,12 @@
         </mxCell>
         <mxCell id="6SOreZp7TohdNblQTOo6-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LBA last:&lt;br&gt;GPT backup" vertex="1">
           <mxGeometry height="60" width="120" x="551" y="134" as="geometry" />
+        </mxCell>
+        <mxCell id="6SOreZp7TohdNblQTOo6-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Boot&lt;div&gt;1024 byte&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="44" y="241" as="geometry" />
+        </mxCell>
+        <mxCell id="6SOreZp7TohdNblQTOo6-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;strokeWidth=3;" value="Block Group 0" vertex="1">
+          <mxGeometry height="279" width="240" x="42" y="240" as="geometry" />
         </mxCell>
         <mxCell id="6SOreZp7TohdNblQTOo6-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="GDT" vertex="1">
           <mxGeometry height="60" width="120" x="44" y="301" as="geometry" />
@@ -69,9 +72,6 @@
         </mxCell>
         <mxCell id="6SOreZp7TohdNblQTOo6-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="data blocks * n" vertex="1">
           <mxGeometry height="60" width="120" x="402" y="421" as="geometry" />
-        </mxCell>
-        <mxCell id="6SOreZp7TohdNblQTOo6-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Boot&lt;div&gt;1024 byte&amp;nbsp;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="44" y="241" as="geometry" />
         </mxCell>
         <mxCell id="6SOreZp7TohdNblQTOo6-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Reserved GDT&lt;div&gt;blcoks&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="160" y="301" as="geometry" />
