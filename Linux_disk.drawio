@@ -1,9 +1,51 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="jBQvlWYqHfwlpuRdhZbB">
-    <mxGraphModel>
+    <mxGraphModel dx="1124" dy="1471" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6SOreZp7TohdNblQTOo6-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="302" width="692" x="42" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="6SOreZp7TohdNblQTOo6-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Boot&lt;div&gt;1024 byte&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="42" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="6SOreZp7TohdNblQTOo6-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Super Block&lt;div&gt;1024 byte&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="162" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="6SOreZp7TohdNblQTOo6-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="A Partition in File System" vertex="1">
+          <mxGeometry height="36" width="123" x="392" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="6SOreZp7TohdNblQTOo6-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Physical Disk / SSD" vertex="1">
+          <mxGeometry height="246" width="479" x="192" y="-52" as="geometry" />
+        </mxCell>
+        <mxCell id="6SOreZp7TohdNblQTOo6-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LBA 1 - 33:&lt;br&gt;GPT Partition Table" vertex="1">
+          <mxGeometry height="60" width="120" x="192" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6SOreZp7TohdNblQTOo6-8" edge="1" parent="1" source="6SOreZp7TohdNblQTOo6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6SOreZp7TohdNblQTOo6-1" value="one of&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6SOreZp7TohdNblQTOo6-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Partitions * N" vertex="1">
+          <mxGeometry height="60" width="120" x="328" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="6SOreZp7TohdNblQTOo6-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LBA 0:&amp;nbsp;&lt;div&gt;Protective MBR&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="192" y="-52" as="geometry" />
+        </mxCell>
+        <mxCell id="6SOreZp7TohdNblQTOo6-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LBA last:&lt;br&gt;GPT backup" vertex="1">
+          <mxGeometry height="60" width="120" x="551" y="134" as="geometry" />
+        </mxCell>
+        <mxCell id="6SOreZp7TohdNblQTOo6-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Block Group * N" vertex="1">
+          <mxGeometry height="280" width="369" x="282" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="6SOreZp7TohdNblQTOo6-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Inodes" vertex="1">
+          <mxGeometry height="60" width="120" x="282" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="6SOreZp7TohdNblQTOo6-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Bitmaps" vertex="1">
+          <mxGeometry height="60" width="120" x="402" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="6SOreZp7TohdNblQTOo6-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Data Blocks * N" vertex="1">
+          <mxGeometry height="60" width="120" x="404" y="356" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
