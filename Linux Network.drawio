@@ -142,7 +142,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="87RxSC_T1K_GgmP9yO4L-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="epoll instance" vertex="1">
-          <mxGeometry height="60" width="120" x="794" y="895" as="geometry" />
+          <mxGeometry height="60" width="120" x="794" y="884" as="geometry" />
         </mxCell>
         <mxCell id="87RxSC_T1K_GgmP9yO4L-65" edge="1" parent="1" source="87RxSC_T1K_GgmP9yO4L-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="87RxSC_T1K_GgmP9yO4L-8">
           <mxGeometry relative="1" as="geometry" />
@@ -169,7 +169,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="87RxSC_T1K_GgmP9yO4L-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="socket Receive Q" vertex="1">
-          <mxGeometry height="60" width="120" x="614" y="895" as="geometry" />
+          <mxGeometry height="60" width="120" x="614" y="884" as="geometry" />
         </mxCell>
         <mxCell id="87RxSC_T1K_GgmP9yO4L-62" edge="1" parent="1" source="87RxSC_T1K_GgmP9yO4L-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="87RxSC_T1K_GgmP9yO4L-6">
           <mxGeometry relative="1" as="geometry" />
@@ -188,6 +188,23 @@
         </mxCell>
         <mxCell id="87RxSC_T1K_GgmP9yO4L-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="TCP demux" vertex="1">
           <mxGeometry height="60" width="120" x="614" y="976" as="geometry" />
+        </mxCell>
+        <mxCell id="87RxSC_T1K_GgmP9yO4L-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="getent ahosts www.google.com" vertex="1">
+          <mxGeometry height="57" width="241" x="379" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="87RxSC_T1K_GgmP9yO4L-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="resolvectl query www.google.com" vertex="1">
+          <mxGeometry height="57" width="241" x="608" y="412" as="geometry" />
+        </mxCell>
+        <mxCell id="87RxSC_T1K_GgmP9yO4L-72" parent="1" style="text;whiteSpace=wrap;" value="sudo resolvectl statistics" vertex="1">
+          <mxGeometry height="36" width="157" x="92" y="534" as="geometry" />
+        </mxCell>
+        <UserObject label="dig @1.1.1.1 www.google.com" link="dig @1.1.1.1 www.google.com" id="87RxSC_T1K_GgmP9yO4L-73">
+          <mxCell parent="1" style="text;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="36" width="190" x="59" y="572" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="87RxSC_T1K_GgmP9yO4L-74" parent="1" style="text;whiteSpace=wrap;" value="ss -tmi" vertex="1">
+          <mxGeometry height="36" width="63" x="174" y="989" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
