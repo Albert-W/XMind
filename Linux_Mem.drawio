@@ -13,7 +13,7 @@
         <mxCell id="Hn7YrQaJpikW6vSeTfb7-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Virtual Memory Space" vertex="1">
           <mxGeometry height="481" width="519" x="128" y="551" as="geometry" />
         </mxCell>
-        <mxCell id="Hn7YrQaJpikW6vSeTfb7-44" edge="1" parent="1" source="Hn7YrQaJpikW6vSeTfb7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Hn7YrQaJpikW6vSeTfb7-11" value="Kernel Page Table">
+        <mxCell id="Hn7YrQaJpikW6vSeTfb7-44" edge="1" parent="1" source="Hn7YrQaJpikW6vSeTfb7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.164;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" target="Hn7YrQaJpikW6vSeTfb7-11" value="Kernel Page Table">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Hn7YrQaJpikW6vSeTfb7-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Kernel Space&lt;div&gt;(space shared across process&lt;/div&gt;&lt;div&gt;if no KPTI)&lt;/div&gt;" vertex="1">
@@ -34,17 +34,14 @@
         <mxCell id="Hn7YrQaJpikW6vSeTfb7-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kernel Heap&lt;div&gt;SLUB / vmalloc&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="175" y="311" as="geometry" />
         </mxCell>
-        <mxCell id="Hn7YrQaJpikW6vSeTfb7-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" value="Anonymous Pages&lt;div&gt;- Process Heap&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Page Table&lt;/div&gt;&lt;div&gt;- Anonymous Stack&lt;/div&gt;&lt;div&gt;- COW&lt;/div&gt;" vertex="1">
+        <mxCell id="Hn7YrQaJpikW6vSeTfb7-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" value="Anonymous Pages&lt;div&gt;- Process Heap&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Anonymous Stack&lt;/div&gt;&lt;div&gt;- COW&lt;/div&gt;" vertex="1">
           <mxGeometry height="135" width="117" x="466" y="303.5" as="geometry" />
         </mxCell>
-        <mxCell id="Hn7YrQaJpikW6vSeTfb7-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="Page Cache" vertex="1">
+        <mxCell id="Hn7YrQaJpikW6vSeTfb7-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="Page Cache&lt;div&gt;(include buffer cache)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="319" y="243.5" as="geometry" />
         </mxCell>
-        <mxCell id="Hn7YrQaJpikW6vSeTfb7-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="Buffer head" vertex="1">
-          <mxGeometry height="60" width="120" x="319" y="311" as="geometry" />
-        </mxCell>
-        <mxCell id="Hn7YrQaJpikW6vSeTfb7-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PCB (?KB)&lt;div&gt;-pid = 1234&lt;/div&gt;&lt;div&gt;-mm -&amp;gt; PGD -&amp;gt; CR3&amp;nbsp;&lt;/div&gt;&lt;div&gt;-files&lt;/div&gt;" vertex="1">
-          <mxGeometry height="78" width="153" x="215" y="642" as="geometry" />
+        <mxCell id="Hn7YrQaJpikW6vSeTfb7-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PCB&amp;nbsp;&lt;div&gt;-pid = 1234&lt;/div&gt;&lt;div&gt;-mm -&amp;gt; PGD&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;-files&lt;/div&gt;" vertex="1">
+          <mxGeometry height="72" width="117" x="176.5" y="378" as="geometry" />
         </mxCell>
         <mxCell id="Hn7YrQaJpikW6vSeTfb7-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" value="Process Shared RAM&lt;div&gt;- POSIX Shared&lt;/div&gt;&lt;div&gt;- IPC shared&lt;/div&gt;&lt;div&gt;- tmpfs/shmem (in Page Cache)&lt;/div&gt;" vertex="1">
           <mxGeometry height="135" width="117" x="591" y="303.5" as="geometry" />
@@ -70,15 +67,15 @@
         <mxCell id="Hn7YrQaJpikW6vSeTfb7-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="mmap / shared lib" vertex="1">
           <mxGeometry height="60" width="120" x="455" y="925" as="geometry" />
         </mxCell>
-        <mxCell id="Hn7YrQaJpikW6vSeTfb7-39" edge="1" parent="1" source="Hn7YrQaJpikW6vSeTfb7-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="Hn7YrQaJpikW6vSeTfb7-29" value="Point to&amp;nbsp;">
+        <mxCell id="Hn7YrQaJpikW6vSeTfb7-39" edge="1" parent="1" source="Hn7YrQaJpikW6vSeTfb7-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="Hn7YrQaJpikW6vSeTfb7-29" value="Point to&amp;nbsp;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Hn7YrQaJpikW6vSeTfb7-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="RSP&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="60" x="58" y="705" as="geometry" />
+          <mxGeometry height="30" width="60" x="60" y="727" as="geometry" />
         </mxCell>
-        <mxCell id="Hn7YrQaJpikW6vSeTfb7-47" edge="1" parent="1" source="Hn7YrQaJpikW6vSeTfb7-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;">
+        <mxCell id="Hn7YrQaJpikW6vSeTfb7-47" edge="1" parent="1" source="Hn7YrQaJpikW6vSeTfb7-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" value="when KPTI">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="309" y="533" as="targetPoint" />
+            <mxPoint x="273" y="536" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Hn7YrQaJpikW6vSeTfb7-48" edge="1" parent="1" source="Hn7YrQaJpikW6vSeTfb7-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;">
@@ -95,8 +92,11 @@
         <mxCell id="Hn7YrQaJpikW6vSeTfb7-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Stack&amp;nbsp;" vertex="1">
           <mxGeometry height="60" width="120" x="451.5" y="845" as="geometry" />
         </mxCell>
-        <mxCell id="Hn7YrQaJpikW6vSeTfb7-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Page Table&amp;nbsp;&lt;br&gt;(per process)" vertex="1">
-          <mxGeometry height="60" width="120" x="236" y="936" as="geometry" />
+        <mxCell id="Hn7YrQaJpikW6vSeTfb7-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kernel Metadata&amp;nbsp;&lt;br&gt;- Page Table&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="213" x="481" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="Hn7YrQaJpikW6vSeTfb7-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CR3 load PGD" vertex="1">
+          <mxGeometry height="34.5" width="100" x="33" y="407" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
